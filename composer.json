@@ -1,0 +1,33 @@
+{
+    "name": "citguru/bryss",
+    "description": "Bryss is a PHP micro framework that helps you quickly write simple yet powerful RESTful APIs.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Oyetoke Toby",
+            "email": "oyetoketoby80@gmail.com"
+        }
+    ],
+    "keywords": [
+        "framework",
+        "micro",
+        "api",
+        "router"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bryss\\": "Bryss"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/CITGuru/bryss"
+        }
+    ],
+    "license": "MIT"
+}
